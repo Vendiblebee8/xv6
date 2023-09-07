@@ -1,0 +1,1 @@
+I printed "test print" in the mpmain function of main.c. This is in the kernal space since the Makefile uses $(OBJS) as dependencies when making the executable and one of the files is main.o which uses main.c which means that the kernal uses main.c and therefore is in the kernal space. 
